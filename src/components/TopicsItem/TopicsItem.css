@@ -1,0 +1,25 @@
+.topics__item-title {
+    width: 60%;
+    cursor: pointer;
+}
+
+.topics__item-messages {
+    width: 15%;
+}
+
+.topics__item-time {
+    width: 25%;
+}
+
+.topics__item-title,
+.topics__item-messages,
+.topics__item-time,
+.topics__item-user {
+    text-align: center;
+}
+
+.topics__top tbody td {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 0;
+}

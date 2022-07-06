@@ -1,0 +1,62 @@
+.newtopic {
+    position: fixed;
+    z-index: 2000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.5);
+    background-color: #fff;
+    display: none;
+}
+
+.newtopic h2 {
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.newtopic__btn {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.newtopic__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newtopic__form textarea {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.newtopic__form textarea,
+.newtopic__form input {
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.newtopic__title,
+.newtopic__user {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.newtopic__title {
+    width: 90%;
+}
+
+.newtopic__close {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}

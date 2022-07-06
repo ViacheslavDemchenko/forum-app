@@ -1,0 +1,22 @@
+.active-topic__text {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.active-topic__comments {
+    font-size: 18px;
+    font-weight: 700;
+    display: none;
+    padding-top: 20px;
+    margin-top: 0;
+    border-top: 2px solid #000;
+}
+
+.active-topic__user {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}

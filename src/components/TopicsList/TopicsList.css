@@ -1,0 +1,31 @@
+.topics {
+    width: 48%;
+    /* margin-right: 20px; */
+}
+
+.topics__top {
+    width: 100%;
+}
+
+.topics__top thead tr {
+    background-color: #000;
+    color: #fff;
+}
+
+.topics__top thead th {
+    padding: 0 10px;
+}
+
+.button {
+    background-color: #fff;
+    color: #000;
+}
+
+.topics__list {
+    width: 100%;
+}
+
+.topics__btn {
+    background-color: gray;
+    color: #000;
+}
